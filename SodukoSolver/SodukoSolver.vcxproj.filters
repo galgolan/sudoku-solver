@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{85413a6f-14c9-4d73-97c7-8de774a1d89f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{2b62c82a-55e7-4564-a301-dfe81a1026df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solvers">
+      <UniqueIdentifier>{428987c6-7941-46ed-8297-e87490ceb986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic Types">
+      <UniqueIdentifier>{ad2bf7de-7242-4d94-918b-525ec1eca410}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="PerfCounter.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SudokuLogger.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForceSolver.cpp">
+      <Filter>Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Basic Types</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardsBank.cpp">
+      <Filter>Basic Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Basic Types</Filter>
+    </ClCompile>
+    <ClCompile Include="CSPSolver.cpp">
+      <Filter>Solvers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sudoku.ico">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PerfCounter.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SudokuException.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SudokuLogger.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="BruteForceSolver.h">
+      <Filter>Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="SolverBase.h">
+      <Filter>Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Basic Types</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardsBank.h">
+      <Filter>Basic Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Basic Types</Filter>
+    </ClInclude>
+    <ClInclude Include="CSPSolver.h">
+      <Filter>Solvers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
